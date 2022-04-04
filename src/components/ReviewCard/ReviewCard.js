@@ -5,12 +5,14 @@ const ReviewCard = (props) => {
     const {name, Ratings, review, img} = props.cycle;
 
     return (
+       <div>
+            
         <div className='shadow-lg rounded-2xl w-{250px} bg-white p-4'>
             <div className="flex gap-4 justify-between items-center">
           <div className="flex-shrink-0">
             <img
               className="mx-auto object-cover rounded-full h-16 w-16"
-              src={review.image}
+              src={img}
               alt=""
             />
           </div>
@@ -21,6 +23,7 @@ const ReviewCard = (props) => {
           </div>
         </div>
         </div>
+       </div>
     );
 };
 

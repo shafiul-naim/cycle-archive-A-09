@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Cycle from "../../assests/image/cycle.jpg";
 import useReview from "../../hooks/useReview";
 import ReviewCard from "../ReviewCard/ReviewCard";
@@ -6,6 +7,7 @@ import "./Home.css";
 
 const Home = () => {
   const [cycles] = useReview();
+  const navigate = useNavigate();
   return (
     <>
       <div className="banner">
@@ -24,11 +26,18 @@ const Home = () => {
           <img src={Cycle} alt="" />
         </div>
       </div>
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-item-center">
-        {cycles.map((cycle) => (
+     <div>
+         <hr />
+     <p className="my-8 py-3 text-center font-bold text-3xl text-gray">
+        Reviews
+      </p>
+     <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-item-center">
+        {(cycles.map((cycle) => (
           <ReviewCard key={cycle.id} cycle={cycle}></ReviewCard>
-        ))}
+        ))).slice(0,3)}
       </div>
+      <button className="text-xl p-2 border m-5 bg-lime-600 text-white rounded-md " onClick={() => navigate('/reviews')}>See more reviews</button>
+     </div>
     </>
   );
 };
