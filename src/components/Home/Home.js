@@ -1,6 +1,6 @@
 import React from "react";
 import Cycle from "../../assests/image/cycle.jpg";
-import Reviews from "../Reviews/Reviews";
+import ReviewCard from "../ReviewCard/ReviewCard";
 import "./Home.css";
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-          <Reviews></Reviews>
+          <ReviewCard></ReviewCard>
       </div>
     </>
   );
