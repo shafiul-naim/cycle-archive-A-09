@@ -18,7 +18,6 @@ const ReviewDetails = ({review}) => {
             <span className="text-blue-800 text-lg py-2">Rating: {review.Ratings}</span>
           </div>
         </div>
-            
         </div>
     );
 };
