@@ -8,6 +8,8 @@ import "./Home.css";
 const Home = () => {
   const [cycles] = useReview();
   const navigate = useNavigate();
+  
+  
   return (
     <>
       <div className="banner">
@@ -28,7 +30,7 @@ const Home = () => {
         </div>
       </div>
      
-      <div>
+      <div className="review-container p-8">
         <hr />
         <p className="my-8 py-3 text-center font-bold text-3xl text-gray">
           Reviews

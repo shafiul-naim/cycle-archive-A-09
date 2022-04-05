@@ -3,42 +3,42 @@
       "id": 1,
       "name": "Mushfiqur Rahim",
       "img": "https://i.ibb.co/Jzv6MQq/cycle-1.png" ,
-      "Ratings": "4 out of 5",
+      "Ratings": "4",
       "review": "Excellent Bike.Very comfortable."
     },
     {
       "id": 2,
       "name": "Taskin Ahmed",
       "img": "https://i.ibb.co/MfKM7mR/cycle-2.png",
-      "Ratings": "5 out of 5",
+      "Ratings": "5",
       "review": "I love this bike.Great for riding."
     },
     {
       "id": 3,
       "name": "MahmudUllah Riyad",
       "img": "https://i.ibb.co/KrbNj7b/cycle-3.jpg",
-      "Ratings": "3 ot 5",
+      "Ratings": "3.5",
       "review": "It is okay.But suspention is not so good.Not suitable for offroad"
     },
     {
       "id": 4,
       "name": "Mashrafi bin Mortuza",
       "img": "https://i.ibb.co/x72PM1W/cycle-4.png",
-      "Ratings": "5 out of 5",
+      "Ratings": "5",
       "review": "It is very modern.Great brake and suspenstion."
     },
     {
       "id": 5,
       "name": "Tamim Iqbal",
       "img": "https://i.ibb.co/cY4kTsb/cycle-5.png",
-      "Ratings": "2 out of 5",
+      "Ratings": "2.5",
       "review": "Frustating! Honestly it is just a hype bike"
     },
     {
       "id": 6,
       "name": "Shakib Al Hasan",
       "img": "https://i.ibb.co/c1pDkWb/cycle-6.png",
-      "Ratings": "4 ot of 5",
+      "Ratings": "4.5",
       "review": "Good for long ride.No back pain.Brake and tyres are up to the mark"
     }
   ]

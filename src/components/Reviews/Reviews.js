@@ -7,13 +7,8 @@ const Reviews = () => {
   // const [reviews, setReviews] = useState([]);
   const [cycles] = useReview();
   console.log(cycles);
-  // useEffect(() => {
-  //     fetch('data.json')
-  //     .then(res => res.json())
-  //     .then( data => setReviews(data))
-  // }, ([]))
   return (
-    <div>
+    <div className="p-8">
       <p className="my-8 py-3 text-center font-bold text-3xl text-gray">
         What our customer say
       </p>

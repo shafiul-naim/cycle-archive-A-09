@@ -5,7 +5,9 @@ const useReview = () => {
   useEffect(() => {
     fetch("data.json")
       .then((res) => res.json())
-      .then((data) => setCycles(data));
+      .then((data) => {
+        setCycles(data);
+      });
   }, []);
   return [cycles, setCycles];
 };
