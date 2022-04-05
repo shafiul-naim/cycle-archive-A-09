@@ -29,7 +29,6 @@ Click here to view [Github link](https://github.com/programming-hero-web-course-
 ## Netlify live site link
 
 Visit the website [Netlify link](https://graceful-mochi-482b57.netlify.app)
-https://graceful-mochi-482b57.netlify.app
 
 <!-- # Getting Started with Create React App
 
