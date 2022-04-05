@@ -17,7 +17,7 @@ const ReviewCard = ({ cycle }) => {
         <div className="flex flex-col justify-end">
           <span className="font-bold text-gray-600 text-2xl">{name}</span>
           <span className="text-gray-600 text-lg py-2">{review}</span>
-          <p>Ratings: <span className="text-blue-800 text-lg py-2">{Ratings}</span></p>
+          <p className="text-3xl font-sans font-semibold">Ratings: <span className="text-3xl text-blue-800  py-2">{Ratings}</span></p>
         </div>
       </div>
     </div>
