@@ -12,7 +12,7 @@ const SpecialLineChart = () => {
       });
   }, []);
     return (
-        <BarChart width={400} height={300} data={chartData}>
+        <BarChart width={300} height={300} data={chartData}>
       <Bar dataKey="investment" fill="#8884d8" />
       <XAxis dataKey="sell"></XAxis>
       <YAxis></YAxis>

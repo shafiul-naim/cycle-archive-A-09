@@ -4,7 +4,7 @@ import Customlink from '../Customlink/Customlink';
 
 const Navbar = () => {
     return (
-        <div className='sticky top-0 bg-white px-12 flex py-8 justify-center md:justify-between'>
+        <div className='sticky top-0 bg-white px-12 flex z-30 py-8 justify-center md:justify-between'>
             <div className='hidden md:block'>
                 <Link to='/' className='text-xl font-bold text-gray-600'>Cycle Archive</Link>
             </div>
