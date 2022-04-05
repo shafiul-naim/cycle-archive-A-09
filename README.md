@@ -24,11 +24,11 @@
 
 ## github link
 
-Click here to view [Github link]()
+Click here to view [Github link](https://github.com/programming-hero-web-course-4/product-analysis-website-shafiul-naim)
 
 ## Netlify live site link
 
-Visit the website [Netlify link]()
+Visit the website [Netlify link](https://graceful-mochi-482b57.netlify.app)
 
 <!-- # Getting Started with Create React App
 
