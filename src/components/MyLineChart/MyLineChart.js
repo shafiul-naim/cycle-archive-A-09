@@ -1,25 +1,19 @@
-import React, { useEffect, useState } from 'react';
-import {LineChart, Line, XAxis, YAxis, Tooltip} from "recharts";
+import React from "react";
+import { LineChart, Line, XAxis, YAxis, Tooltip } from "recharts";
+import useChart from "../../hooks/useChart";
 
 const MyLineChart = () => {
-    const [chartData, setChartData] = useState([]);
+  const [chartData] = useChart();
 
-    useEffect(() => {
-        fetch("rechartData.json")
-        .then(res => res.json())
-        .then((data) => {
-          setChartData(data);
-        });
-    }, []);
-    return (
-        <LineChart width={300} height={300} data={chartData}>
+  return (
+    <LineChart width={300} height={300} data={chartData}>
       <Line dataKey={"investment"}></Line>
       <Line dataKey={"sell"}></Line>
       <XAxis dataKey={"revenue"}></XAxis>
       <YAxis></YAxis>
       <Tooltip></Tooltip>
     </LineChart>
-    );
+  );
 };
 
 export default MyLineChart;
