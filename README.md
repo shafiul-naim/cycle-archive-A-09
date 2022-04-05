@@ -1,6 +1,6 @@
 # Cycle Life
 
-This is a website about selecting and buying amazing cycle.
+ Markup : * Bullet list
 
 ## github link
 
