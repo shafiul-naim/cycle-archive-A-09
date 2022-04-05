@@ -1,6 +1,26 @@
-# Cycle Life
+# Cycle Archive
 
- Markup : * Bullet list
+- About project
+  This is project about reviewing and rating of cycles.
+
+- Technology used
+
+  1. React
+  2. Tailwind
+  3. Rechart
+
+- Main task
+
+  1. Review website
+  2. Navbar
+  3. Customer Review show
+  4. 404 not found
+  5. Minimum 2 rechart
+
+- Bonus task
+  1. README file
+  2. Destructuring
+  3. Custom hook
 
 ## github link
 
@@ -9,7 +29,6 @@ Click here to view [Github link]()
 ## Netlify live site link
 
 Visit the website [Netlify link]()
-
 
 <!-- # Getting Started with Create React App
 
