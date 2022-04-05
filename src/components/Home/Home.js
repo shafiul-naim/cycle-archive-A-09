@@ -38,7 +38,7 @@ const Home = () => {
      
       <div className="review-container p-8">
         <hr />
-        <p className="my-8 py-3 text-center font-bold text-3xl text-gray">
+        <p className="my-8 py-3 text-center font-bold text-3xl text-lime-800 underline decoration-stone-600 underline-offset-8">
           Reviews
         </p>
        
