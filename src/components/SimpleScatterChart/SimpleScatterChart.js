@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { CartesianGrid, ResponsiveContainer, Scatter, ScatterChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { CartesianGrid, Scatter, ScatterChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const SimpleScatterChart = () => {
     const [chartData, setChartData] = useState([]);
@@ -12,7 +12,6 @@ const SimpleScatterChart = () => {
       });
   }, []);
     return (
-        <ResponsiveContainer width="70%" height="100%">
         <ScatterChart
           width={300}
           height={300}
@@ -23,7 +22,6 @@ const SimpleScatterChart = () => {
           <Tooltip cursor={{ strokeDasharray: '3 3' }} />
           <Scatter name="A school" data={chartData} fill="#8884d8" />
         </ScatterChart>
-      </ResponsiveContainer>
     );
 };
 

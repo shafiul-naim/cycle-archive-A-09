@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
 
 const SimpleAreaChart = () => {
     const [chartData, setChartData] = useState([]);
@@ -12,7 +12,7 @@ const SimpleAreaChart = () => {
       });
   }, []);
     return (
-        <ResponsiveContainer width="70%" height="100%">
+       
         <AreaChart  
           width={300}
           height={300}
@@ -25,7 +25,6 @@ const SimpleAreaChart = () => {
           <Tooltip />
           <Area type="monotone" dataKey="revenue" stroke="#8884d8" fill="#8884d8" />
         </AreaChart>
-      </ResponsiveContainer>
     );
 };
 
