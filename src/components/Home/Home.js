@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import Cycle from "../../assests/image/cycle.jpg";
 import useReview from "../../hooks/useReview";
 import ReviewCard from "../ReviewCard/ReviewCard";
-// import "./Home.css";
 
 const Home = () => {
   const [cycles] = useReview();
