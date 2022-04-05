@@ -22,22 +22,32 @@ const Home = () => {
             according to your need.you will never dissappoint.
           </p>
         </div>
+       
         <div className="banner-right">
           <img src={Cycle} alt="" />
         </div>
       </div>
-     <div>
-         <hr />
-     <p className="my-8 py-3 text-center font-bold text-3xl text-gray">
-        Reviews
-      </p>
-     <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-item-center">
-        {(cycles.map((cycle) => (
-          <ReviewCard key={cycle.id} cycle={cycle}></ReviewCard>
-        ))).slice(0,3)}
+     
+      <div>
+        <hr />
+        <p className="my-8 py-3 text-center font-bold text-3xl text-gray">
+          Reviews
+        </p>
+       
+        <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-item-center">
+          {cycles
+            .map((cycle) => (
+              <ReviewCard key={cycle.id} cycle={cycle}></ReviewCard>
+            ))
+            .slice(0, 3)}
+        </div>
+        <button
+          className="text-xl p-2 border m-5 bg-lime-600 text-white rounded-md "
+          onClick={() => navigate("/reviews")}
+        >
+          See more reviews
+        </button>
       </div>
-      <button className="text-xl p-2 border m-5 bg-lime-600 text-white rounded-md " onClick={() => navigate('/reviews')}>See more reviews</button>
-     </div>
     </>
   );
 };
