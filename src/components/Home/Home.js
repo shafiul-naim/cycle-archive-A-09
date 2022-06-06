@@ -14,7 +14,7 @@ const Home = () => {
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 justify-item-center ">
        <div className="flex gap-4 justify-center items-center">
        <div className="flex flex-col justify-end">
-          <p className="text-3xl font-sans font-semibold text-cyan-900">Life is like riding a bicycle</p>
+          <p className="text-3xl font-sans font-semibold text-gray-500">Life is like riding a bicycle</p>
           <p className="text-2xl font-sans font-semibold text-teal-900">
             To keep your balance you must keep moving
           </p>
@@ -52,7 +52,7 @@ const Home = () => {
           className="text-xl p-2 border m-5 text-white rounded-md bg-emerald-500 hover:bg-emerald-600 active:bg-emerald-700 focus:outline-none focus:ring focus:ring-emerald-300"
           onClick={() => navigate("/reviews")}
         >
-          See more reviews
+          More reviews
         </button>
       </div>
     </>
